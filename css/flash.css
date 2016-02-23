@@ -4,14 +4,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
 	font-size:17px;
-	line-height:23px;
+	line-height:1.4em;
 	color:#333;
 }
 
 a{ color:#0c3572}
 a:hover{ color:#0c8ed1; cursor:pointer}
 
-h1{font-size: 68px}
+h1{font-size: 68px; line-height: 1.1em;}
 h2{font-size: 42px; line-height:45px}
 h3{font-size: 21px;}
 
@@ -69,7 +69,7 @@ section h2{padding-top:140px; margin-bottom:25px;}
 
 #header{}
 #header .in{padding-top:160px; background: url(../img/coffee2.png) no-repeat left 180px; text-align:left; display:inline-block; padding-left:580px}
-#header h1{font-size: 57px; }
+#header h1{font-size: 57px;}
 #header h2{font-size: 43px; padding:25px 0px 0px 0px;}
 #header strong{font-size:18px;}
 #header ul{margin:0px; padding:0px; margin-top:20px}
