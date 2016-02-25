@@ -85,8 +85,8 @@ $(document).ready(function(){
     // track buttons
     $('.but').on('click', function(){
         var pos = $(this).data('pos');
-        ga('send', 'event', 'Calltracking Landing', 'Button', 'Position '+pos);
         fbq('track', 'InitiateCheckout');
+        ga('send', 'event', 'Calltracking Landing', 'Button', 'Position '+pos);
     });
 
     $('.top_menu_partner').on('click', function(){
