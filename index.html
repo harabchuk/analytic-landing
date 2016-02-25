@@ -102,7 +102,7 @@
 		<li>Сводку в Google Analytics, где на одном экране видны все важные показатели.</li>
     </ul>
 	<br>
-	<a class="but" onClick="o_regform();">Бесплатная консультация</a>
+	<a class="but" data-pos="you_take" onClick="o_regform();">Бесплатная консультация</a>
 </section>
 
 
@@ -135,7 +135,7 @@
 		<li>Благоадря простому плану, работа с аналитикой становится легкой и занимает около 30 минут в неделю.</li>
     </ul>
 	<br>
-	<a class="but" onClick="o_regform();">Бесплатная консультация</a>
+	<a class="but" data-pos="how_work" onClick="o_regform();">Бесплатная консультация</a>
 </section>
 
 
@@ -168,7 +168,7 @@
     Поэтому важно увидеть всю картину, чтобы не осталось темных углов в статистике. </p>
     
     <br>
-	<a class="but" onClick="o_regform();">Бесплатная консультация</a>
+	<a class="but" data-pos="lost_money" onClick="o_regform();">Бесплатная консультация</a>
 </section>
 
 
@@ -256,7 +256,7 @@
         <form id="userForm" name="reg-form">
             <div class="row-form"><input id="person_name" name="name" required placeholder="Ваше имя" type="text"></div>
             <div class="row-form"><input id="email" name="email" required placeholder="Email" type="email"></div>
-            <div class="row-form"><input id="website" name="website" required placeholder="Ваш сайт" type="text"></div>
+            <div class="row-form" style="display:none"><input id="website" name="website" required placeholder="Ваш сайт" type="text"></div>
             <div class="row-form"><input id="phone" name="phone" required placeholder="Контактный телефон" type="tel"></div>
             <div class="row-form">
                 <button class="but" id="btn_submit"
