@@ -83,7 +83,7 @@ $(document).ready(function(){
     $('a[href="http://amazingcarousel.com"]').hide();
 
     // track buttons
-    $('.order_but').on('click', function(){
+    $('.but').on('click', function(){
         var pos = $(this).data('pos');
         ga('send', 'event', 'Calltracking Landing', 'Button', 'Position '+pos);
     });
