@@ -86,6 +86,7 @@ $(document).ready(function(){
     $('.but').on('click', function(){
         var pos = $(this).data('pos');
         ga('send', 'event', 'Calltracking Landing', 'Button', 'Position '+pos);
+        fbq('track', 'InitiateCheckout');
     });
 
     $('.top_menu_partner').on('click', function(){
